@@ -82,6 +82,10 @@ target/
 profile_default/
 ipython_config.py
 
+# AI stuff
+model/llama-2-7b-chat.ggmlv3.q4_0.bin
+data/Medical_book.pdf
+
 # pyenv
 #   For a library or package, you might want to ignore these files since the code is
 #   intended to run in multiple environments; otherwise, check them in:
