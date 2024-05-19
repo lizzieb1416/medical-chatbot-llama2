@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  deployment:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: "llama2-medical-chatbot"
+    ports:
+      - "5000:5000"
+    container_name: "llama2-medical-chatbot_cn"
+    restart: unless-stopped
+    command: bash -c "while true; do sleep 1; done"
