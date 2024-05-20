@@ -11,7 +11,14 @@ readme = "README.md"
 authors = [ { name = "liset bastidas gonzalez", email = "lisetbastidasg@gmail.com"}]
 
 dependencies = [
-  "tomli"
+  "tomli",
+  "ctransformers",
+  "sentence-transformers",
+  "pinecone-client",
+  "langchain",
+  "flask",
+  "pypdf",
+  "langchain-pinecone"
 ]
 
 [project.optional-dependencies]
